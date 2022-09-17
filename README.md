@@ -15,10 +15,7 @@ BSC_API_KEY = YOUR CONTRACT VERIFICATION API KEYS. I OBTAINED FROM BSCSCAN.COM. 
 
 # Deployment
 
-# To deploy non upgradable version of Multisender smart contract.
-
-
-Run: 
+# Run to deploy non upgradable version of Multisender smart contract.
 
 
 npx hardhat compile
@@ -35,9 +32,7 @@ npx hardhat verify "ADDRESS OF DEPLOYED SMART CONTRACT"
 (--network bsctestnet for bsc testnet or bsc for mainnet or choose your own network)
 
 
-# To deploy upgradable version of Multisender smart contract.
-
-Run: 
+# Run to deploy upgradable version of Multisender smart contract.
 
 npx hardhat compile
 
