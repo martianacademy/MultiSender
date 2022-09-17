@@ -1,6 +1,6 @@
 # Multisender Smart Contract
 
-#Download the repository & run
+# Download the repository & run
 
 npm install
 
