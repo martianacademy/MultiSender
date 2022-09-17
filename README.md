@@ -28,7 +28,7 @@ npx hardhat run scripts/deploy_Multisender.jsx (will deploy on your default netw
 
 (--network bsctestnet for bsc testnet or bsc for mainnet or choose your own network)
 
-Run to Verify smart contract:
+# Run to Verify smart contract:
 
 npx hardhat verify "ADDRESS OF DEPLOYED SMART CONTRACT"
 
@@ -45,7 +45,7 @@ npx hardhat run scripts/deploy_MultisenderUpgradable.jsx (will deploy on your de
 
 (--network bsctestnet for bsc testnet or bsc for mainnet or choose your own network)
 
-Run to Verify smart contract proxy and implementation both:
+# Run to Verify smart contract proxy and implementation both:
 
 npx hardhat verify "ADDRESS OF DEPLOYED SMART CONTRACT PROXY"
 
