@@ -52,5 +52,9 @@ npx hardhat verify "ADDRESS OF DEPLOYED SMART CONTRACT PROXY"
 (--network bsctestnet for bsc testnet or bsc for mainnet or choose your own network)
 
 
+# Contribute
 
 You are free to contribute in this smart contract, just pull the repository.
+
+# License
+MIT
