@@ -5,6 +5,8 @@ Run:
 
 npm install
 
+# Prepare .env file
+
 Create .env file to the root folder and put the private keys in this format or create variable of your own and update them in hardhat.config.js
 
 MAINNET_PRIVATE_KEY = YOUR MAINNET PRIVATE KEY (AVAOID PUTIING HERE UNTIL YOU ARE DEPLOYING ON MAINNET AND TESTED ON TEST NETWORKS)
@@ -22,7 +24,6 @@ Run:
 npx hardhat compile
 npx hardhat run scripts/deploy_Multisender.jsx (will deploy on your default network configured in hardhat.config.js )
 
-# Prepare .env file
 
 (--network bsctestnet for bsc testnet or bsc for mainnet or choose your own network)
 
