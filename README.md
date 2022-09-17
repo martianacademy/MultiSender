@@ -22,6 +22,7 @@ Run:
 
 
 npx hardhat compile
+
 npx hardhat run scripts/deploy_Multisender.jsx (will deploy on your default network configured in hardhat.config.js )
 
 
@@ -39,6 +40,7 @@ npx hardhat verify "ADDRESS OF DEPLOYED SMART CONTRACT"
 Run: 
 
 npx hardhat compile
+
 npx hardhat run scripts/deploy_MultisenderUpgradable.jsx (will deploy on your default network configured in hardhat.config.js )
 
 (--network bsctestnet for bsc testnet or bsc for mainnet or choose your own network)
