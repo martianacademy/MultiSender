@@ -15,10 +15,14 @@ BSC_API_KEY = YOUR CONTRACT VERIFICATION API KEYS. I OBTAINED FROM BSCSCAN.COM. 
 
 # To deploy non upgradable version of Multisender smart contract.
 
+
 Run: 
+
 
 npx hardhat compile
 npx hardhat run scripts/deploy_Multisender.jsx (will deploy on your default network configured in hardhat.config.js )
+
+# Prepare .env file
 
 (--network bsctestnet for bsc testnet or bsc for mainnet or choose your own network)
 
