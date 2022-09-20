@@ -3,6 +3,7 @@
 # Download the repository & run
 
 npm install
+
 npm i @nomicfoundation/hardhat-toolbox
 
 # Prepare .env file
